@@ -1,0 +1,83 @@
+/* font-family: PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Acme', sans-serif;
+*/
+
+#contenidos{
+	width:1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background:orange;
+	border-radius: 10px;
+}
+/*ETIQUETAS*/
+body{
+background-image: url(../img/captura2.jpg);
+background-repeat: no-repeat;
+background-size: 170px;
+}
+
+h1{
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	margin-left: 10px;
+	font-size: 40px;
+	text-align: center;
+	background-image: url(../img/programador.gif);
+	background-repeat: no-repeat;
+	background-size: 50px;
+
+
+}
+
+h2{
+	font-family: 'Acme', sans-serif;
+	margin-right: 10px;
+	font-size: 20px;
+	text-align: right;
+}
+
+header{
+	width: 1000px;
+	height: 150px;
+	background: blue;
+	border-radius: 10px;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: orange;
+	border-radius: 10px;
+}
+
+ul{
+	margin: auto;
+	padding-top: 5px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 25px;
+	background: rgba(255,255,255,0,5);
+	margin: 3px;
+}
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width:970;}
+
+.menu:link{padding: 7px;color: white; text-decoration: none;}
+.menu:visited{padding: 7px;color: white; text-decoration: none;}
+.menu:hover{padding: 7px;color: white; text-decoration: none; text-shadow: 0 0 20px blue;}
+.menu:active{padding: 7px;color: white; text-decoration: none;}
+
+h1:hover
+{
+
+	
+	box-shadow: 0 0 25px orange inset;
+}
